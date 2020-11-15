@@ -1,0 +1,87 @@
+body{
+    background-image: url(https://cdn.careersinfilm.com/wp-content/uploads/2019/04/online-film-schools.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  #228B22 ;
+}
+
+form{
+    margin: 0px 200px;
+   }
+   
+#description{
+    color: #043b04;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    padding-bottom: 20px;
+        }
+
+#title{
+    color:cornsilk;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(7, 112, 42);
+    margin: 10px auto;
+    }
+
+.container{
+    padding-bottom: 20px;
+    color:#0a5507;
+    font-size: 24px;
+    font-family: cursive;
+   }
+
+   #text-area{
+    min-height: 120px;
+    width: 50%;
+    padding: 0.625rem;
+    resize: vertical;
+    border-radius: 20px;
+    font-size: 18px;
+   }
+
+   #name{
+    min-height: 30px;
+    width: 20%;
+    padding: 0.625rem;
+    resize: vertical;
+    border-radius: 20px;
+    font-size: 18px;
+   }
+
+   #email{
+    min-height: 30px;
+    width: 20%;
+    padding: 0.625rem;
+    resize: vertical;
+    border-radius: 20px;
+    font-size: 18px;
+   }
+
+   #number{
+    min-height: 30px;
+    width: 20%;
+    padding: 0.625rem;
+    resize: vertical;
+    border-radius: 20px;
+    font-size: 18px;
+   }
+
+   #classApply{
+    min-height: 30px;
+    width: 20%;
+    padding: 0.625rem;
+    resize: vertical;
+    border-radius: 20px;
+    font-size: 18px;   
+   }
+
+   #submit{
+    min-height: 30px;
+    width: 20%;
+    padding: 0.625rem;
+    resize: vertical;
+    border-radius: 20px;
+    font-size: 18px;    
+   }

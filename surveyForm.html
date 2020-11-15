@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title > Admission Form </title>
+        <link href="surveyForm.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="title"> School Admission Form</h1>  
+     <p id="description"><strong>School admission forms are processed within 48 hours, you will receive a confirmation email.</strong></p> 
+      <form action="url" autocomplete="off">
+         <div class="container"> 
+             <label id="name-label" for="name"><strong> Name:</strong></label>
+                <input type="text" id="name" name="username" placeholder="First name" required/>
+                <input type="text" id="name" name="username" placeholder="Last name" required/>
+         </div>
+
+         <div class="container">
+             <label id="email-label" for="email"><strong> Email</strong>:</label>
+             <input type="email" id="email" name="email" placeholder="example@email.com" required/>
+         </div>
+
+         <div class="container">
+             <label id="number-label" for="age"><strong> Age:</strong></label>
+             <input type="number" id="number" name="number" min="18" max="99" placeholder="Age" required/>
+         </div>
+
+         <div class="container">
+             <p><strong>  Kindly input your gender</strong></p>
+             <input type="radio"   name="gender" value="male"/><strong> Male</strong><br/>
+             <input type="radio" name="gender" value="female"/><strong> Female</strong>
+         </div>
+
+         <div class="container">
+             <label for="classApply"><strong> Class you want to apply for:</strong></label>
+             <select name="classApply" id="classApply" required>
+             <option value="select"><strong>Please Select</strong></option>
+             <option value="Digital marketing">Digital marketing</option>
+             <option value="Programming"> Programming</option>
+             <option value="Project Management">Project Management</option>
+             <option value="Graphics Design">Graphics Design</option>
+             </select>
+         </div >
+
+         <div class="container">
+             <p> <strong> How did you find us?</strong></p>
+             <input type="checkbox" name="friend" value="friend"/><strong>  Through a friend</strong> <br/>
+             <input type="checkbox" name="socialMedia" value="socialMedia"/><strong>  Through our social media platforms</strong><br/>
+             <input type="checkbox" name="flyers" value="flyers"/><strong>Flyers and Bills</strong><br/>
+         </div>
+         <div class="container">
+             <p><strong>Any comments or suggestions?</strong></p>
+             <textarea id="text-area" placeholder="input your text here"></textarea>
+         </div>
+
+         <div class="container">
+             <input type="submit" id="submit" value="submit"/>
+         </div>
+      </form>
+    </body>
+</html>
